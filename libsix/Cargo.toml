@@ -1,0 +1,9 @@
+[package]
+name = 'libsix'
+version = '0.0.1'
+edition = '2021'
+authors = ['Miiao']
+repository = 'https://github.com/mrMiiao/six/tree/master/libsix'
+keywords = ['lang', 'language']
+description = 'Compact programming language built on top of Rust ecosystem.'
+license = 'MPL-2.0'
