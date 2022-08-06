@@ -1,6 +1,22 @@
 #![allow(non_camel_case_types)]
 #![feature(never_type)]
 
+//! libsix is the main part of six lang. It must be used inside rust.
+//! Example:
+//! ```no_run
+//! extern crate libsix;
+//! use libsix::*;
+//! 
+//! six!{
+//! 
+//! entry {
+//!     print!("Hello, World!");
+//! }
+//! 
+//! }
+//! ```
+
+/// Six lang experimental parser.
 #[macro_export]
 macro_rules! six {
     () => {};
